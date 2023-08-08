@@ -16,15 +16,15 @@
   <meta name="author" content="DongFeng100">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Android ANR分析ANR 描述ANR全称：Application Not Responding，是指程序未有响应。出现这个异常情况是由于Android系统处理某些事件需要在一定时间内完成，否则超过预定时间内没有得到响应，则会出现ANR。 造成ANR场景 Service Timeout：service在特定时间内无法处理完成。 Broadcastqueue Timeout：Broadcast">
+    <meta name="description" content="Android ANR分析">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android基础知识">
 <meta property="og:url" content="https://dongfeng100.github.io/2023/08/07/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html">
 <meta property="og:site_name" content="DongFeng100">
-<meta property="og:description" content="Android ANR分析ANR 描述ANR全称：Application Not Responding，是指程序未有响应。出现这个异常情况是由于Android系统处理某些事件需要在一定时间内完成，否则超过预定时间内没有得到响应，则会出现ANR。 造成ANR场景 Service Timeout：service在特定时间内无法处理完成。 Broadcastqueue Timeout：Broadcast">
+<meta property="og:description" content="Android ANR分析">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-08-07T15:12:30.000Z">
-<meta property="article:modified_time" content="2023-08-08T15:10:57.636Z">
+<meta property="article:modified_time" content="2023-08-08T16:30:13.069Z">
 <meta property="article:author" content="DongFeng100">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -272,7 +272,8 @@
             
               <div class="markdown-body">
                 
-                <h1 id="Android-ANR分析"><a href="#Android-ANR分析" class="headerlink" title="Android ANR分析"></a>Android ANR分析</h1><h2 id="ANR-描述"><a href="#ANR-描述" class="headerlink" title="ANR 描述"></a>ANR 描述</h2><p>ANR全称：Application Not Responding，是指程序未有响应。出现这个异常情况是由于Android系统处理某些事件需要在一定时间内完成，否则超过预定时间内没有得到响应，则会出现ANR。</p>
+                <h1 id="Android-ANR分析"><a href="#Android-ANR分析" class="headerlink" title="Android ANR分析"></a>Android ANR分析</h1><span id="more"></span>
+<h2 id="ANR-描述"><a href="#ANR-描述" class="headerlink" title="ANR 描述"></a>ANR 描述</h2><p>ANR全称：Application Not Responding，是指程序未有响应。出现这个异常情况是由于Android系统处理某些事件需要在一定时间内完成，否则超过预定时间内没有得到响应，则会出现ANR。</p>
 <h2 id="造成ANR场景"><a href="#造成ANR场景" class="headerlink" title="造成ANR场景"></a>造成ANR场景</h2><ul>
 <li>Service Timeout：service在特定时间内无法处理完成。</li>
 <li>Broadcastqueue Timeout：BroadcastRecevier在特定时间内无法处理完成。</li>
